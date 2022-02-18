@@ -196,11 +196,13 @@ a {
 .main-div {
     font-family: 'Titillium Web';
     color: white;
+    position:relative;
 }
 
 .title {
     font-size: 80px;
     margin-top: 10px;
+    position:relative;
 }
 
 .title:after {
@@ -216,29 +218,26 @@ a {
     }
 }
 
-.about {
- font-size: 20px;
- text-align: center;
- margin-top: 15px;}
-
 h6 {
   font-family: 'Titillium Web';
   color: #b3b3b3;
   margin-top: -3rem;
   margin-bottom: 1.5rem;
   font-size: 20px;
-  text-align: center;  }
+  text-align: center;
+  position:relative;}
 h5 {
   font-family: 'Titillium Web';
   color: #b3b3b3;
   margin-top: -1rem;
   margin-bottom: -1rem;
   font-size: 20px;
-  text-align: center;  }
+  text-align: center; 
+  position:relative;}
 
 
 .main-div {
-    position: absolute;
+    position: relative;
     /* margin: 0 auto; */
     text-align: center;
     left: 50%;
