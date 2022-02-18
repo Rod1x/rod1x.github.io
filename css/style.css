@@ -202,7 +202,7 @@ a {
 .title {
     font-size: 80px;
     margin-top: 10px;
-    position:relative;
+
 }
 
 .title:after {
@@ -225,7 +225,7 @@ h6 {
   margin-bottom: 1.5rem;
   font-size: 20px;
   text-align: center;
-  position:relative;}
+}
 h5 {
   font-family: 'Titillium Web';
   color: #b3b3b3;
@@ -233,7 +233,7 @@ h5 {
   margin-bottom: -1rem;
   font-size: 20px;
   text-align: center; 
-  position:relative;}
+  }
 
 
 .main-div {
@@ -241,7 +241,7 @@ h5 {
     /* margin: 0 auto; */
     text-align: center;
     left: 50%;
-    top: 30%;
+    top: 25rem;
     transform: translate(-50%,-50%);
 }
 
