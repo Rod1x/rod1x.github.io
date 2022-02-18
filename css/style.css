@@ -206,7 +206,7 @@ a {
 }
 
 .title:after {
-    content: '_';
+    content: '|';
     margin-left: 5px;
     opacity: 1;
     animation: blinker 0.7s infinite;
