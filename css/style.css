@@ -719,8 +719,7 @@ margin-right: auto;
 /*Meu conteudo*/
 
 .achiv { float:left;
-    margin-right:5px;
-   }
+    }
    .t4  {
   }
   .t4 p{
@@ -730,21 +729,18 @@ margin-right: auto;
   line-height: 1;  
   font-weight: 400;  
   letter-spacing: 2px;
-  margin-top: 7px;
+  margin-top: 35px;
   margin-bottom: 3px;
   }
   
  .img{
-  font-family: 'Titillium Web';  
-  
-  margin-top: 7px;
-  margin-bottom: 3px;
+  display: flex; /* coloca as imagens uma ao lado da outra */
+  justify-content: center; /* alinha as imagens no centro da tela */   
   margin-left: auto;
   margin-right: auto;
-  width: 150;
-  display: inline-block; 
-   }
-  
+  margin-top: 20px;
+  }
+
 ##########################
 /*Maquina de escrever*/
 .main-div {
