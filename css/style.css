@@ -786,3 +786,39 @@ h2 {
     top: 22rem;
     transform: translate(-50%,-50%);
 }
+
+
+
+
+
+##########
+.modal{
+border-radius: 10px !important;
+;}
+
+.modal-title h5 {   
+text-align: center;
+margin-top: 0px;
+font-family: 'Titillium Web'; }
+
+.modal .modal-content {
+  border-radius: 10px !important;
+  -webkit-box-shadow: 0 10px 50px -10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 50px -10px rgba(0, 0, 0, 0.3);
+  border: none;
+  background: #1a1919 }
+  .modal .modal-content .modal-header {
+    border-bottom: none;
+    padding-bottom: 0px !important;
+    padding-left: 30px;
+    padding-right: 30px;
+
+
+  .modal .modal-content .modal-body {
+    padding-left: 30px;
+    padding-right: 30px;
+
+
+.btnmodal {
+
+  padding: 5px 10px !important; }
