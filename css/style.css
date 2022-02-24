@@ -751,24 +751,24 @@ margin-right: auto;
 .title {
     font-size: 50px;
     margin-top: 10px;
-    animation: blinker 3.0s infinite;
- 
+   
 }
 
 
+
+.title:After {
+    content: '_';
+    margin-left: 0px;
+    opacity: 5;
+    color: red;
+animation: blinker 1.0s infinite;
+}
 
 .title:before {
-    content: '';
-    margin-left: 5px;
-    opacity: 5;
-
-}
-
-.title:after {
-    content: '';
-    margin-right: 5px;
-    opacity: 5;
-   
+    content: '#';
+    margin-right: 3px;
+    opacity: 1;
+    color: red;
 }
 
 @keyframes blinker {
