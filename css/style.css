@@ -4,6 +4,7 @@ body {
   font-family: "Titillium Web", sans-serif;
   -webkit-font-smoothing: antialiased;
   background: #1a1919;
+ 
 }
 
 p {
@@ -663,8 +664,8 @@ margin-right: auto;
   background-color: #1a1919;
   border-top: 3px solid red;
   padding: 10px 0;
-  border-radius: 10px;
-  margin-top: 10px;
+  border-radius: 10px;  
+  height: 0;
 }
 
 .footer-bottom h5 {
@@ -721,6 +722,19 @@ margin-right: auto;
   margin-bottom: 13px;
   }
   
+  .t5  {
+  }
+  .t5 p{
+  font-family: 'Titillium Web'; 
+  text-align: center;
+  font-size: 14px;
+  line-height: 1;  
+  font-weight: 400;  
+  letter-spacing: 2px;
+  margin-top: 5px;
+  margin-bottom: 13px;
+  }
+  
  .img{
   margin-top: 4px;
   display: inline-block; 
@@ -771,7 +785,7 @@ h2 {
   color: #b3b3b3;
   text-align: center;
   font-size:18px;
-  margin-top: -28px;}
+  margin-top: 20px;}
   
 h3 {
   font-family: 'Titillium Web';
@@ -786,10 +800,6 @@ h3 {
   text-align: center;
   font-size:16px;
    }
-
-
-
-
 
 
 ##########
