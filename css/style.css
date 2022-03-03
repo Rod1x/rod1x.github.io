@@ -723,10 +723,21 @@ margin-right: auto;
   }
   
   .t5  {
+  text-align: center;
   }
   .t5 p{
   font-family: 'Titillium Web'; 
   text-align: center;
+  font-size: 14px;
+  line-height: 1;  
+  font-weight: 400;  
+  letter-spacing: 2px;
+  margin-top: 5px;
+  margin-bottom: 13px;
+  }
+  
+  .t5 a{
+  font-family: 'Titillium Web'; 
   font-size: 14px;
   line-height: 1;  
   font-weight: 400;  
