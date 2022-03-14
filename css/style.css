@@ -481,6 +481,7 @@ a:focus, a:hover {
   color: #fff;
 }
 
+
 .commonTab .tab-content {
   padding-top: 30px;
 }
@@ -531,6 +532,24 @@ a:focus, a:hover {
   background: #1a1919;
   border-radius: 10px;
   border-bottom: 3px solid red;
+}
+
+.navigationkraken {
+  transition: .1s all;
+  border-radius: 10px;
+  width: 30%;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.navigationkraken .navbar-nav > li > a {
+  color: White;
+  font-size: 15px;
+  font-weight: bold;  
+  line-height: 26px;
+  padding: 1px 20px !important;
+  transition: .1s ease-in-out 0s;
+
 }
 
 .navbar-nav{
@@ -681,6 +700,31 @@ margin-right: auto;
 
 
 
+.footer-kraken {
+  text-align: center;
+  padding-top: 10px ;
+  border-radius: 10px;  
+  width: 100%;
+  position:fixed; 
+  bottom:3px;
+
+
+
+
+}
+
+.footer-kraken h9 {
+  font-size: 10px;
+  line-height: 1;
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+
+
+
 ##########################
 /*Meu conteudo*/
 
@@ -811,6 +855,16 @@ h3 {
   text-align: center;
   font-size:16px;
    }
+   
+   h12 {
+  font-family: 'Titillium Web';
+  color: WHITE;
+  font-weight: bold;  
+  font-size:28px;
+  margin-top: -10px;
+  margin-left: 180px;
+
+  }
 
 
 ##########
