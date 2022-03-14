@@ -7,6 +7,14 @@ body {
  
 }
 
+.hero-img {
+ background-image: url('images/kraken.png');
+ background-attachment: fixed;
+  background-size: cover;
+  background-size: 100% 100%;
+  display: block;
+}
+
 p {
   font-family: "Titillium Web", sans-serif;
   color: #9a9a9a;
@@ -167,6 +175,12 @@ a:focus, a:hover {
 
 .section {
   padding: 100px 0;
+}
+
+@media (max-width: 480px) {
+    body {
+       background-image: url('images/kraken.png');
+    }
 }
 
 @media (max-width: 480px) {
@@ -543,7 +557,7 @@ a:focus, a:hover {
 }
 
 .navigationkraken .navbar-nav > li > a {
-  color: White;
+  color: white;
   font-size: 15px;
   font-weight: bold;  
   line-height: 26px;
@@ -858,7 +872,7 @@ h3 {
    
    h12 {
   font-family: 'Titillium Web';
-  color: WHITE;
+  color: red;
   font-weight: bold;  
   font-size:28px;
   margin-top: -10px;
