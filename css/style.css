@@ -551,8 +551,8 @@ a:focus, a:hover {
 .navigationkraken {
   transition: .1s all;
   border-radius: 10px;
-  width: 30%;
-  height: 60px;
+  width: 80%;
+  height: 30px;
   margin: 0 auto;
 }
 
