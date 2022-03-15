@@ -181,7 +181,13 @@ a:focus, a:hover {
     body {
        background-image: url('images/kraken.png');
     }
+
+@media screen and (max-width:800px) {
+  body {
+    background-size: cover;
+    background-attachment:fixed }
 }
+
 
 @media (max-width: 480px) {
   .section {
