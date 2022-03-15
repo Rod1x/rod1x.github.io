@@ -560,15 +560,28 @@ a:focus, a:hover {
   width: 80%;
   height: 30px;
   margin: 0 auto;
+
 }
 
 .navigationkraken .navbar-nav > li > a {
-  color: white;
+  color: orange;
   font-size: 15px;
   font-weight: bold;  
   line-height: 26px;
   padding: 1px 20px !important;
   transition: .1s ease-in-out 0s;
+  
+  .navigationkraken .navbar-nav > li > a {
+  color: red;
+  font-size: 15px;
+  line-height: 26px;
+  padding: 1px 20px !important;
+  transition: .1s ease-in-out 0s;
+  background: #1a1919;
+
+}
+
+  
 
 }
 
@@ -920,3 +933,10 @@ color: black; }
 .btnmodal {
 
   padding: 5px 10px !important; }
+  
+  
+  
+  
+  ##########################
+  
+ 
