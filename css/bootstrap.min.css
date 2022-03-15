@@ -6309,7 +6309,11 @@ a.close.disabled {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   padding: 1rem;
+ 
 }
+.modal-body p{
+  text-align: justify;
+  text-indent: 0ch;}
 
 .modal-footer {
   display: -webkit-box;
