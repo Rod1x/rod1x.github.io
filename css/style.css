@@ -4,7 +4,7 @@ body {
   font-family: "Titillium Web", sans-serif;
   -webkit-font-smoothing: antialiased;
   background: #1a1919;
- 
+
 }
 
 .hero-img {
@@ -21,7 +21,7 @@ p {
   font-size: 15px;
   text-indent: 20px;
   text-align: justify;
-  
+
 }
 
 .h7 p {
@@ -566,11 +566,11 @@ a:focus, a:hover {
 .navigationkraken .navbar-nav > li > a {
   color: orange;
   font-size: 15px;
-  font-weight: bold;  
+  font-weight: bold;
   line-height: 26px;
   padding: 1px 20px !important;
   transition: .1s ease-in-out 0s;
-  
+
   .navigationkraken .navbar-nav > li > a {
   color: red;
   font-size: 15px;
@@ -581,7 +581,7 @@ a:focus, a:hover {
 
 }
 
-  
+
 
 }
 
@@ -641,7 +641,7 @@ margin-right: auto;
   opacity: 1;
   -webkit-transform: scaleY(1);
           transform: scaleY(1);
-   border-radius: 10px;        
+   border-radius: 10px;
 }
 
 .navigation .dropdown .dropdown-item {
@@ -716,7 +716,7 @@ margin-right: auto;
   background-color: #1a1919;
   border-top: 3px solid red;
   padding: 10px 0;
-  border-radius: 10px;  
+  border-radius: 10px;
   height: 0;
 }
 
@@ -736,9 +736,9 @@ margin-right: auto;
 .footer-kraken {
   text-align: center;
   padding-top: 10px ;
-  border-radius: 10px;  
+  border-radius: 10px;
   width: 100%;
-  position:fixed; 
+  position:fixed;
   bottom:3px;
 
 }
@@ -762,21 +762,9 @@ margin-right: auto;
 /*Meu conteudo*/
 
 .t2  {
-  }  
-  .t2 p{
-  font-family: 'Titillium Web'; 
-  text-align: center;
-  font-size: 10px;
-  letter-spacing: 3px;
-  margin-top: 30px;
-  margin-bottom: -3px;
-  color: gray;
   }
-
-.t3  {
-  }  
-  .t3 p{
-  font-family: 'Titillium Web'; 
+  .t2 p{
+  font-family: 'Titillium Web';
   text-align: center;
   font-size: 10px;
   letter-spacing: 3px;
@@ -784,48 +772,60 @@ margin-right: auto;
   margin-bottom: -3px;
   color: gray;
   }
-  
+
+.t3  {
+  }
+  .t3 p{
+  font-family: 'Titillium Web';
+  text-align: center;
+  font-size: 10px;
+  letter-spacing: 3px;
+  margin-top: 10px;
+  margin-bottom: -3px;
+  color: gray;
+  }
+
 
    .t4  {
   }
   .t4 p{
-  font-family: 'Titillium Web'; 
+  font-family: 'Titillium Web';
   text-align: center;
   font-size: 14px;
-  line-height: 1;  
-  font-weight: 400;  
+  line-height: 1;
+  font-weight: 400;
   letter-spacing: 2px;
-  margin-top: 35px;
+  margin-top: 15px;
   margin-bottom: 13px;
   }
-  
+
   .t5  {
   text-align: center;
   }
   .t5 p{
-  font-family: 'Titillium Web'; 
+  font-family: 'Titillium Web';
   text-align: center;
   font-size: 14px;
-  line-height: 1;  
-  font-weight: 400;  
+  line-height: 1;
+  font-weight: 400;
   letter-spacing: 2px;
   margin-top: 5px;
   margin-bottom: 13px;
   }
-  
+
   .t5 a{
-  font-family: 'Titillium Web'; 
+  font-family: 'Titillium Web';
   font-size: 14px;
-  line-height: 1;  
-  font-weight: 400;  
+  line-height: 1;
+  font-weight: 400;
   letter-spacing: 2px;
   margin-top: 5px;
   margin-bottom: 13px;
   }
-  
+
  .img{
   margin-top: 4px;
-  display: inline-block; 
+  display: inline-block;
   border-radius: 10%;
   overflow: hidden;
 
@@ -836,13 +836,13 @@ margin-right: auto;
 .main-div {
     font-family: 'Titillium Web';
     color: white;
-   
+
 }
 
 .title {
     font-size: 50px;
     margin-top: 10px;
-   
+
 }
 
 
@@ -874,25 +874,25 @@ h2 {
   text-align: center;
   font-size:18px;
   margin-top: 20px;}
-  
+
 h3 {
   font-family: 'Titillium Web';
   color: #b3b3b3;
   text-align: center;
   font-size:18px;
   margin-top: 18px;}
-  
+
   h4 {
   font-family: 'Titillium Web';
   color: red;
   text-align: center;
   font-size:16px;
    }
-   
+
    h12 {
   font-family: 'Titillium Web';
   color: red;
-  font-weight: bold;  
+  font-weight: bold;
   font-size:28px;
   margin-top: -10px;
   margin-left: 180px;
@@ -905,7 +905,7 @@ h3 {
 border-radius: 10px !important;
 ;}
 
-.modal-title h5 {   
+.modal-title h5 {
 text-align: center;
 margin-top: 0px;
 font-family: 'Titillium Web';
@@ -933,10 +933,8 @@ color: black; }
 .btnmodal {
 
   padding: 5px 10px !important; }
-  
-  
-  
-  
+
+
+
+
   ##########################
-  
- 
