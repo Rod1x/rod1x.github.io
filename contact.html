@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/labs.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>  
+    <nav class="sidebar close">
+        <header>
+
+                <div class="text logo-text">
+                    <span style="font-family:'Rubik Glitch'; font-size: 30px;" class="name">MENU</span>
+                   
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Search...">
+                </li>
+
+                <ul class="menu-links">                   
+
+                    <li class="nav-link">
+                        <a href="index.html">
+                            <i class='bx bx-home icon' ></i>
+                            <span class="text nav-text">Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-bar-chart-alt-2 icon' ></i>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="labs.html">
+                            <i class='bx bx-cube icon'></i>
+                            <span class="text nav-text">CTF Labs</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="projects.html">
+                            <i class='bx bx-ghost icon' ></i>
+                            <span class="text nav-text">Projects</span>
+                        </a>
+                    </li>                   
+
+                    <li class="nav-link activemenu">
+                        <a href="contact.html">
+                            <i class='bx bx-mail-send icon' ></i>
+                            <span class="text nav-text">Contact</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div>            
+                <li class="nav-link">       
+                    <a href="#">
+                        <i class='bx bx-log-out icon' ></i>
+                        <span class="text nav-text">Logout</span>
+                    </a>  
+                </li>                  
+            </div>
+        </div>
+
+    </nav>
+
+    <section class="home">
+   
+    <div class="main">
+        <img src="images/krakenproject1.png" class="main-image" alt="krakenproject">
+        <h1>C O N T A C T</h1>  
+        <div class="container">     
+         
+            <div class="collapsible">
+                <button class="btn-menu">CONTACT </button>
+           </div>
+           <div class="content">
+             
+                   <p style="text-align:center">rodneycamilo@gmail.com</p><br>
+                   <p style="text-align:center">telegram: @rodneycamilo </p><br>            
+                                          
+           </div>
+               
+        </div>
+    </div>    
+</section>
+</body>
+<script src="./js/main.js"></script>
+    <script>
+        const body = document.querySelector('body'),
+      sidebar = body.querySelector('nav'),
+      toggle = body.querySelector(".toggle"),
+      searchBtn = body.querySelector(".search-box"),
+      modeSwitch = body.querySelector(".toggle-switch"),
+      modeText = body.querySelector(".mode-text");
+
+
+toggle.addEventListener("click" , () =>{
+    sidebar.classList.toggle("close");
+})
+
+searchBtn.addEventListener("click" , () =>{
+    sidebar.classList.remove("close");
+})
+
+
+
+    </script>
+</html>
