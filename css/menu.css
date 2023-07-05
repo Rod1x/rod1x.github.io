@@ -213,7 +213,7 @@ header .image-text .profession{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    float:left;
+    
 
 }
 .menu-bar::-webkit-scrollbar{
