@@ -12,6 +12,25 @@
 *	Edit this section
 *
 * ======================================================= */
+
+/*-Mobile-*/
+
+@media only screen and (max-width: 768px) {
+
+    --Elementos--
+
+}
+
+/*-Desktop-*/
+
+@media only screen and (min-width: 768px) {
+
+    --Elementos--
+
+}
+
+
+
 body {
   font-family: "Open Sans", Arial, sans-serif;
   line-height: 1.6;
