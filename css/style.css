@@ -222,7 +222,7 @@
 }
 @media screen and (max-width: 480px) {
   .timeline > li > .timeline-panel {
-    width: 75% !important;
+    width: 80% !important;
   }
   .timeline > li > .timeline-panel:before {
     top: 30px;
@@ -268,9 +268,9 @@
 }
 @media screen and (max-width: 480px) {
   .timeline > li > .timeline-badge {
-    width: 90px;
-    height: 90px;
-    margin-left: -20px !important;
+    width: 70px;
+    height: 70px;
+    margin-left: -5px !important;
   }
 }
 .timeline > li.timeline-inverted > .timeline-panel {
